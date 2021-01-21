@@ -204,7 +204,7 @@ def js_leaderboard_no_login():
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
-    #app.run(host=os.environ.get('IP'),
-            #port=int(os.environ.get('PORT')),
-            #debug=False)
+    #app.run(debug=False)
+    app.run(host=os.environ.get('IP'),
+            port=int(os.environ.get('PORT')),
+            debug=False)
